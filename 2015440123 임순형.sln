@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW1-5번", "HW1-5번\HW1-5�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW1-5번(2)", "HW1-5번(2)\HW1-5번(2).vcxproj", "{75CB4653-A267-431C-AEAB-0B3091B0B812}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181016 루프", "2018101루프\2018101루프.vcxproj", "{571D43DC-8E39-4CAC-B9CE-D162F95325A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -61,6 +63,10 @@ Global
 		{75CB4653-A267-431C-AEAB-0B3091B0B812}.Debug|Win32.Build.0 = Debug|Win32
 		{75CB4653-A267-431C-AEAB-0B3091B0B812}.Release|Win32.ActiveCfg = Release|Win32
 		{75CB4653-A267-431C-AEAB-0B3091B0B812}.Release|Win32.Build.0 = Release|Win32
+		{571D43DC-8E39-4CAC-B9CE-D162F95325A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{571D43DC-8E39-4CAC-B9CE-D162F95325A0}.Debug|Win32.Build.0 = Debug|Win32
+		{571D43DC-8E39-4CAC-B9CE-D162F95325A0}.Release|Win32.ActiveCfg = Release|Win32
+		{571D43DC-8E39-4CAC-B9CE-D162F95325A0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
