@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW2-문제11번", "HW2-11�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW2-문제14번", "HW2-문제14번\HW2-문제14번.vcxproj", "{970A78D8-8773-4BA4-81AE-97836A57874C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181023", "20181023\20181023.vcxproj", "{671FE05E-7530-4553-A5A6-AF3179E034D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -223,6 +225,10 @@ Global
 		{970A78D8-8773-4BA4-81AE-97836A57874C}.Debug|Win32.Build.0 = Debug|Win32
 		{970A78D8-8773-4BA4-81AE-97836A57874C}.Release|Win32.ActiveCfg = Release|Win32
 		{970A78D8-8773-4BA4-81AE-97836A57874C}.Release|Win32.Build.0 = Release|Win32
+		{671FE05E-7530-4553-A5A6-AF3179E034D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{671FE05E-7530-4553-A5A6-AF3179E034D0}.Debug|Win32.Build.0 = Debug|Win32
+		{671FE05E-7530-4553-A5A6-AF3179E034D0}.Release|Win32.ActiveCfg = Release|Win32
+		{671FE05E-7530-4553-A5A6-AF3179E034D0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
