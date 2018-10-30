@@ -40,15 +40,25 @@ int main () {
 	printf("z= %d ,x=%d\n",z,x); //함수 안에서는 다른 함수 안의 다른 변수를 access 할 방법이 없다. 
 	goodPrint();
 
+
 	return 0;
 }
+/* review  : 함수 
+  int sum ( int a, int b ) { //함수 선언
+    int c;
+	c=a+b;
+	return c; // 함수 본체 
+	} // 함수 정의  1. 함수 이름 2. 반환형 3.매개변수 갯수 2개, 4. 각 매개변수 자료형은 int,int
+	               
+	int main () { 
+	int x=10,y=20,z;
+	z=sum(x,y); // 함수 호출 (x,y)매개변수를 
+
+	변수의 유효범위 : 매개변수, 지역변수는 함수 내부 
+	매개변수 전달   :   
 
 
-
-
-
-
-
+	*/
 
 
 
