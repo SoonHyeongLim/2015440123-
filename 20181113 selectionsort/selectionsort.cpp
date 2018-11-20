@@ -14,8 +14,10 @@ int findMinindex(int*arr, int length)
 	int minIndex;
 	   int min=arr[0]; 
 	for(int count=0;count<length; count++){
-     if(min>arr[count])
-	       minIndex=count;	      
+    
+		if(min>=arr[count]){
+	       minIndex=count;
+		}
 	}
 	return minIndex;
 }
@@ -30,7 +32,7 @@ int findMin ( int* arr , int length )
 		 min = arr[count];
 	}
 	return min;
-}
+} //  
 //함수: swapElement()
 //입력: 배열, 두개의 인덱스 
 //출력: 없음
@@ -45,20 +47,17 @@ void swapElement(int* arr, int i, int j ) {
 //입력: 배열 
 //출력: 없음 
 //부수효과: 배열이 정렬됨 
-void selectionSort(int * arr, int length) {
-	   int Index; 
-	   int j=0;
-	   int i=0;
+void selectionSort(int*arr, int length) {
+	int i=0;
+	int j=0;
+  
 
-	   for(i=0;i<length;i++)
-	   {
-	   for(j=i;j<length;j++)
-	    { findMin(arr,length);
-	      Index=findMinindex(arr,length); 
-	    }
-	     swapElement(arr,i,Index);
-	   }
-}
+
+
+
+
+	}
+     
 int main() { 
 	int a[] = {30,35,27,15,40};
       	
@@ -67,4 +66,4 @@ int main() {
 	//swapElement(a,0,3);
 	selectionSort(a,5);
 	printArray(a,5);
-}
+};
