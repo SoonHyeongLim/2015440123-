@@ -24,6 +24,7 @@ printArray(a,5);
 
 char b[] = "hello"; //==> char b[] = { 'h','e','l','l','o'.'\0' }
 printf("%s \n",b);  
+printArray(b,strlen(b));
 
 printf("the length of the string is %d \n",strlen(b)); //strlen : 문자열의 길이를 말함(null문자를 제외한) 
                                                        // 배열의 길이는 매개변수에 없다...
@@ -33,10 +34,9 @@ printf("the length of the string is %d \n",strlen(b)); //strlen : 문자열의 길이�
 
  strcat(str1,str2);
  printf(" %s \n ",str1);
- strcpy(str1,str2);
+ strcpy(str1,str2); //str1에 str2 에 있는 문자열을 복사한다. 
  printf(" %s \n ", str1);
 
 
 return 0;
 } 
-

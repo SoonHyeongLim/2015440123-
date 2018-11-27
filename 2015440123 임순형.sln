@@ -109,6 +109,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insertionsort", "Insertions
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181120 string", "20181120 string\20181120 string.vcxproj", "{4B841CE5-80F8-469F-AEEE-29C57376646D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181127 구조체", "20181127 구조체\20181127 구조체.vcxproj", "{692C54DF-61A2-496C-BD8E-071BD1A89C39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -331,6 +333,10 @@ Global
 		{4B841CE5-80F8-469F-AEEE-29C57376646D}.Debug|Win32.Build.0 = Debug|Win32
 		{4B841CE5-80F8-469F-AEEE-29C57376646D}.Release|Win32.ActiveCfg = Release|Win32
 		{4B841CE5-80F8-469F-AEEE-29C57376646D}.Release|Win32.Build.0 = Release|Win32
+		{692C54DF-61A2-496C-BD8E-071BD1A89C39}.Debug|Win32.ActiveCfg = Debug|Win32
+		{692C54DF-61A2-496C-BD8E-071BD1A89C39}.Debug|Win32.Build.0 = Debug|Win32
+		{692C54DF-61A2-496C-BD8E-071BD1A89C39}.Release|Win32.ActiveCfg = Release|Win32
+		{692C54DF-61A2-496C-BD8E-071BD1A89C39}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
