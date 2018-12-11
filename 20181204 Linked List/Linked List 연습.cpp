@@ -7,6 +7,7 @@ typedef struct node {
 	 int score;
 	 struct node*pNext;
 } Node; 
+
 //함수: printLL() 화면에 연결리스트의 score 값을 출력  
 //입력: 연결리스트 (연결리스트의 헤드노드 포인터)
 //출력: 없음 
@@ -42,16 +43,23 @@ void addHead (Node** ppHead, Node* pNewNode) { //(Node* pHead, Node* pNewNode) {
 int main () {
 
 	Node* pHead=NULL, *ptr;// 헤드노드의 포인터 , NULL이면 연결리스트가 없다는 의미(로 약속하자 )
-//	Node a,b;
-//	a.score = 10; b.score=20;
-//	a.pNext = &b; b.pNext= NULL;
-//   pHead = &a;
-	pHead = createNode(10);
+
+	//Node a,b;
+	//a.score = 10; b.score=20;
+	//a.pNext = &b; b.pNext= NULL;
+    //pHead = &a;
+	//pHead = createNode(10);
+
+	Node a;
+	a.score=10; a.pNext=NULL;
+	pHead=&a;
 	ptr = createNode(20);
 	//addHead(pHead,ptr); //이렇게 하면 안된다.
 	addHead(&pHead,ptr);
-	//pHead -> pNext = createNode(20);
+	
+	//pHead -> pNext=createNode(20);
 	printLL(pHead);
+
 
 	return 0; 
 }

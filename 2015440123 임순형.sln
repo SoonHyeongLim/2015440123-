@@ -115,6 +115,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181204 동적할당", "20
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181204 Linked List", "20181204 Linked List\20181204 Linked List.vcxproj", "{37921C85-8388-4C11-942E-B06D314FDB38}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linkedlist3", "linkedlist3\linkedlist3.vcxproj", "{DCCD802F-38F5-47B5-B873-AF065BE97DB4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181211linkedlist", "20181211linkedlist\20181211linkedlist.vcxproj", "{94562A1A-3825-48FE-BE16-80E5F6B81A69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -349,6 +353,14 @@ Global
 		{37921C85-8388-4C11-942E-B06D314FDB38}.Debug|Win32.Build.0 = Debug|Win32
 		{37921C85-8388-4C11-942E-B06D314FDB38}.Release|Win32.ActiveCfg = Release|Win32
 		{37921C85-8388-4C11-942E-B06D314FDB38}.Release|Win32.Build.0 = Release|Win32
+		{DCCD802F-38F5-47B5-B873-AF065BE97DB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCCD802F-38F5-47B5-B873-AF065BE97DB4}.Debug|Win32.Build.0 = Debug|Win32
+		{DCCD802F-38F5-47B5-B873-AF065BE97DB4}.Release|Win32.ActiveCfg = Release|Win32
+		{DCCD802F-38F5-47B5-B873-AF065BE97DB4}.Release|Win32.Build.0 = Release|Win32
+		{94562A1A-3825-48FE-BE16-80E5F6B81A69}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94562A1A-3825-48FE-BE16-80E5F6B81A69}.Debug|Win32.Build.0 = Debug|Win32
+		{94562A1A-3825-48FE-BE16-80E5F6B81A69}.Release|Win32.ActiveCfg = Release|Win32
+		{94562A1A-3825-48FE-BE16-80E5F6B81A69}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
